@@ -5,6 +5,10 @@
             <field name="categ_id" position="after">
                 <field name="default_code" attrs="{'invisible': [('product_variant_count', '&gt;', 1)]}"/>
                 <field name="barcode" attrs="{'invisible': [('product_variant_count', '&gt;', 1)]}"/>
+                <field name="x_url01"/>
+                <field name="x_url02"/>
+                <field name="x_url03"/>
+              
             </field>
 
             <button name="toggle_active" position="before">
